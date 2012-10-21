@@ -20,7 +20,7 @@ dfdB.done( log, 'B is so cool!' );
 dfdB.fail( log, 'whatever....' );
 
 // and now the reveal
-perform( log, "All done bitches' )
+perform( log, 'All done bitches' )
   .when( dfdA )
   .unless( dfdB );
 
