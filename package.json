@@ -1,7 +1,7 @@
 {
   "name": "perform",
   "description": "A sensible deferred library",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/danheberden/perform",
   "author": {
     "name": "Dan Heberden",
