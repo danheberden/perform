@@ -61,6 +61,13 @@ dfdA.resolve( 20 );
 // => 100
 ```
 
+Tasking is now easy
+
+```javascript
+var taskA = perform( anAsyncTask ).when( someAsyncTask );
+var taskB = perform( anotherAsyncTask ).when( taskA );
+var taskC = perform( log, "ALL DONE" ).when( taskB );
+```
 
 ## Getting Started
 Install the module with: `npm install perform`
